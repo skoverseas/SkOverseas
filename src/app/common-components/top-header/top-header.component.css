@@ -1,0 +1,44 @@
+.info-bar {
+    background-color: rgba(0, 0, 0, 0.7); /* Transparent black */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; /* Space between items */
+    align-items: flex-start;
+  }
+  
+  .info-list {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .info-list li {
+    color: white; /* White text color */
+    display: flex;
+    align-items: center;
+  }
+  
+  .info-list i {
+    color: white; /* White icon color */
+    margin-right: 5px; /* Space between icon and text */
+  }
+
+  /* Specific positioning */
+  .left {
+    justify-content: flex-start;
+  }
+  
+  .center {
+    justify-content: center;
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .right {
+    justify-content: flex-end;
+  }
+  

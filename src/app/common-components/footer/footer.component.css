@@ -1,0 +1,197 @@
+.footer_container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(36, 39, 46);
+    color: #CCCCCC;
+    padding-top: 20px;
+}
+
+.footer_action {
+    background-color: rgb(36, 39, 46);
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer_action .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_action .column_column a {
+    color: #CCCCCC;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.footer_action .column_column a span {
+    color: #FFFFFF;
+}
+
+.footer_action p {
+    margin: 10px 0;
+}
+
+.icon_container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.icon_bar_small {
+    color: #CCCCCC;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.icon_bar_small:hover {
+    color: #FFFFFF;
+}
+
+.widgets_wrapper {
+    background-color: #2b2e35;
+    padding-top: 20px ;
+}
+
+.typesOfVisa {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.widget {
+    margin: 20px;
+}
+
+.widget_text h4 {
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.countries-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px; /* Adjust the gap between columns */
+}
+
+.list_of_countries {
+    flex: 0 0 calc(33.33% - 20px); /* Adjust width of each column */
+    max-width: calc(33.33% - 20px); /* Adjust max-width of each column */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list_of_countries li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.list_of_countries li a {
+    text-decoration: none;
+    color: #333; /* Adjust link color */
+}
+
+.list_of_countries li i {
+    margin-right: 5px;
+}
+.work-visa-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust the gap between columns */
+}
+
+.list_of_work_visa_countries {
+    flex: 0 0 calc(50% - 20px); /* Two columns per row, adjust as needed */
+    max-width: calc(50% - 20px); /* Max-width to maintain two columns per row */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list_of_work_visa_countries li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.list_of_work_visa_countries li a {
+    text-decoration: none;
+    color: #333; /* Adjust link color */
+}
+
+.list_of_work_visa_countries li i {
+    margin-right: 5px;
+}
+
+img {
+    /* Styles for the image */
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+.textwidget ul {
+    list-style: none;
+    padding: 0;
+}
+
+.textwidget ul li {
+    margin: 5px 0;
+}
+
+.textwidget ul li a {
+    color: #CCCCCC;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.textwidget ul li a:hover {
+    color: #FFFFFF;
+}
+
+.footer_copy {
+    background-color: rgb(24, 27, 34);
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer_button {
+    color: #CCCCCC;
+    font-size: 24px;
+    display: block;
+    margin: 10px auto;
+    text-decoration: none;
+}
+
+.footer_button:hover {
+    color: #FFFFFF;
+}
+
+.copyright {
+    margin-top: 10px;
+    color: #CCCCCC;
+}
+
+.social-menu {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.social-menu a {
+    color: #CCCCCC;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-menu a:hover {
+    color: #FFFFFF;
+}

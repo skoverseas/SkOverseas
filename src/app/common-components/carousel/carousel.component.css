@@ -1,0 +1,104 @@
+/* Carousel indicators */
+* {
+    font-family: "Libre Franklin", sans-serif;
+}
+.carousel-indicators li {
+    background-color: #000;
+    border: none;
+}
+.carousel-indicators .active {
+    background-color: #fff;
+}
+
+/* Carousel controls */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+/* Carousel images */
+.carousel-inner img {
+    height: 80vh; /* Adjusted height */
+    object-fit: cover; /* Ensure the images cover the entire container */
+}
+
+/* Carousel caption */
+.carousel-caption {
+    text-align: center;
+    color: #fff; /* Text color */
+    position: absolute;
+    bottom: 5px; /* Adjust the vertical position */
+    left: 0;
+    right: 0;
+    animation: slideInUp 1s ease; /* Slide-in animation */
+}
+
+.carousel-caption h3 {
+    font-size: 32px; /* Font size for the lines of text */
+    margin: 10px 0; /* Margin between lines of text */
+    font-family: Arial, sans-serif; /* Font family */
+    font-weight: bold; /* Bold font for better visibility */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Text shadow for better contrast */
+}
+
+.line1 {
+    text-transform: uppercase; /* Uppercase for line 3 */
+    /* Italics for line 1 */
+}
+
+.line2 {
+    color: #f39c12; /* Different color for line 2 */
+}
+
+.line3 {
+    text-transform: uppercase; /* Uppercase for line 3 */
+}
+
+/* Carousel control buttons */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%; /* Adjust the width as needed */
+ 
+    border-radius: 50%; /* Rounded corners for the buttons */
+    padding: 10px; /* Padding around the icons */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+
+/* Custom styles for carousel container */
+.carousel {
+    margin-top: 20px; /* Adjust the top margin as needed */
+}
+
+/* Center the carousel indicators */
+.carousel-indicators {
+    bottom: -30px; /* Adjust the position as needed */
+}
+
+/* Animation keyframes */
+@keyframes slideInUp {
+    from { opacity: 0; transform: translateY(50px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+
+/* Additional styles for animation */
+@keyframes slideInText {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.carousel-caption .animated-text {
+    animation: slideInText 1s ease forwards;
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide overflowed text */
+    position: relative; /* Ensure positioning context */
+}

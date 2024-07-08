@@ -1,0 +1,54 @@
+.custom-navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+    padding: 10px 20px;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 32px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-logo {
+    margin: -43px;
+    height: 10vh;
+    width: 27vh;
+  }
+  
+  .nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+  }
+  
+ 
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: white;
+  }
+  
+  /* Highlight the active navigation link */
+  .nav-link {
+    color: #f8f6f6; /* Default text color */
+    padding: 10px 15px; /* Adjust padding for better spacing */
+    border-radius: 5px; /* Rounded corners for a modern look */
+    font-size: 16px; /* Adjust font size */
+    font-family: 'sans-serif'; /* Ensure a clean font family */
+}
+
+/* Hover effect for navigation links */
