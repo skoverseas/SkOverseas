@@ -12,6 +12,7 @@ import { FooterComponent } from './common-components/footer/footer.component';
 import { TopHeaderComponent } from './common-components/top-header/top-header.component';
 import { CarouselComponent } from './common-components/carousel/carousel.component';
 import { ScrollFadeDirective } from './scroll-fade.directive';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { ScrollFadeDirective } from './scroll-fade.directive';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

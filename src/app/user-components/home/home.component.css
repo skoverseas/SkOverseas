@@ -8,15 +8,20 @@ body {
 * {
     font-family: "Libre Franklin", sans-serif;
 }
+/* #home{
+    width: 100%;
+} */
+
+
 
 header, section, app-carousel, app-about, app-visa, app-contact {
     width: 100%;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 .header {
     color: green;
-    font-size: 2em;
+    font-size: 2rem;
     text-align: center;
     margin: 20px 0;
     animation: fadeIn 2s;
@@ -42,7 +47,7 @@ header, section, app-carousel, app-about, app-visa, app-contact {
 }
 
 .description {
-    font-size: 1.2em;
+    font-size: 1.2rem;
     line-height: 1.5;
     color: #555;
 }
@@ -63,7 +68,7 @@ header, section, app-carousel, app-about, app-visa, app-contact {
   
   .section-header {
     text-align: center;
-    font-size: 2em;
+    font-size: 2rem;
     margin-bottom: 20px;
     opacity: 0; /* Initially hidden */
     transition: opacity 2s; /* Ensure smooth transition */
@@ -113,13 +118,13 @@ header, section, app-carousel, app-about, app-visa, app-contact {
 }
 
 .service-title {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     margin-bottom: 10px;
     color: green;
 }
 
 .service-description {
-    font-size: 1em;
+    font-size: 1rem;
     color: #666;
 }
 
@@ -149,13 +154,13 @@ header, section, app-carousel, app-about, app-visa, app-contact {
 }
 
 .testimonial-text {
-    font-size: 1em;
+    font-size: 1rem;
     color: #333;
     margin-bottom: 10px;
 }
 
 .testimonial-author {
-    font-size: 0.9em;
+    font-size: 0.9rem;
     color: #999;
 }
 
@@ -168,20 +173,20 @@ header, section, app-carousel, app-about, app-visa, app-contact {
 }
 
 .cta-header {
-    font-size: 2em;
+    font-size: 2rem;
     margin-bottom: 10px;
     color: green;
 }
 
 .cta-description {
-    font-size: 1.2em;
+    font-size: 1.2rem;
     margin-bottom: 20px;
     color: #555;
 }
 
 .cta-button {
     padding: 10px 20px;
-    font-size: 1em;
+    font-size: 1rem;
     color: #fff;
     background-color: green;
     border: none;
@@ -250,13 +255,13 @@ header, section, app-carousel, app-about, app-visa, app-contact {
 }
 
 .title {
-    font-size: 3em;
+    font-size: 3rem;
     margin-bottom: 10px;
     animation: fadeIn 1s ease-in-out;
 }
 
 .subtitle {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     margin-top: 10px;
     animation: fadeIn 1.5s ease-in-out;
 }
@@ -303,4 +308,17 @@ header, section, app-carousel, app-about, app-visa, app-contact {
         width: 90%; /* Adjust width for smaller screens */
         margin-left: 5%; /* Adjust margin for smaller screens */
     }
+    .service-title {
+        font-size: 1rem;
+        margin-bottom: 10px;
+        color: green;
+    }
+    .service-description {
+        font-size: 0.5rem;
+        color: #666;
+    }
+    .home{
+        width: 160vh;
+    }
 }
+

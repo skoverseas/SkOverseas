@@ -1,44 +1,60 @@
 .info-bar {
-    background-color: rgba(0, 0, 0, 0.7); /* Transparent black */
-    padding: 10px;
-    display: flex;
-    justify-content: space-between; /* Space between items */
-    align-items: flex-start;
-  }
-  
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* Allow wrapping for small screens */
+}
+
+.info-list {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap; /* Allow wrapping for small screens */
+}
+
+.info-list li {
+  color: white;
+  display: flex;
+  align-items: center;
+  flex: 1; /* Ensure items take equal space */
+  text-align: center; /* Center text */
+  margin: 5px 0; /* Space between items for wrapping */
+}
+
+.info-list i {
+  color: white;
+  margin-right: 5px;
+}
+
+/* Specific positioning */
+.left {
+  justify-content: flex-start;
+}
+
+.center {
+  justify-content: center;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.right {
+  justify-content: flex-end;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
   .info-list {
-    list-style: none;
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .info-list li {
-    color: white; /* White text color */
-    display: flex;
-    align-items: center;
-  }
-  
-  .info-list i {
-    color: white; /* White icon color */
-    margin-right: 5px; /* Space between icon and text */
+    flex-direction: column; /* Stack items vertically on small screens */
+    text-align: center; /* Center text */
   }
 
-  /* Specific positioning */
-  .left {
-    justify-content: flex-start;
+  .left, .center, .right {
+    justify-content: center; /* Center align on small screens */
   }
-  
-  .center {
-    justify-content: center;
-    flex-grow: 1;
-    text-align: center;
-  }
-  
-  .right {
-    justify-content: flex-end;
-  }
-  
+}
